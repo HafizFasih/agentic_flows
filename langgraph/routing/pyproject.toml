@@ -1,0 +1,22 @@
+[project]
+name = "routing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Fasih", email = "programmer.fasih.18@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.74",
+    "litellm>=1.61.9",
+]
+
+[project.scripts]
+routing = "routing:main"
+own = "routing.own:main"
+llm = "routing.llm:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

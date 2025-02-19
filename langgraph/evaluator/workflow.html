@@ -1,0 +1,29 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Workflow Diagram</title>
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    </head>
+    <body>
+        <div class="mermaid">
+        %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	generate_response(generate_response)
+	evaluate_response(evaluate_response)
+	check_quality([check_quality]):::last
+	__start__ --> generate_response;
+	evaluate_response --> check_quality;
+	generate_response --> evaluate_response;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+        </div>
+    </body>
+    </html>
+    
