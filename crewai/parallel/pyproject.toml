@@ -1,0 +1,20 @@
+[project]
+name = "parallel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Fasih", email = "programmer.fasih.18@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.102.0",
+    "litellm>=1.60.2",
+]
+
+[project.scripts]
+parallel = "parallel:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
