@@ -1,0 +1,11 @@
+langgraph/evaluator/.env
+langgraph/orchestrator/.env
+langgraph/parallelization/.env
+langgraph/prompt-chaining/.env
+langgraph/routing/.env
+crewai/agents/.env
+crewai/evaluator/.env
+crewai/orchestrator/.env
+crewai/parallel/.env
+crewai/routing/.env
+crewai/prompt_chaining/.env
