@@ -16,6 +16,7 @@ dependencies = [
 agents = "agents:main"
 own = "agents.own:main"
 repo = "agents.repo:main"
+llm = "agents.llm:main"
 
 [build-system]
 requires = ["hatchling"]
