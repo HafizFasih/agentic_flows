@@ -15,6 +15,9 @@ dependencies = [
 
 [project.scripts]
 orchestrator = "orchestrator:main"
+own = "orchestrator.own:main"
+llm = "orchestrator.llm:main"
+repo = "orchestrator.repo:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -23,10 +23,7 @@ class WorkFlow(Flow):
     def Out(self):
         print("This is Output")
     
-def kickoff():
+def main():
     wf = WorkFlow()
     wf.kickoff()
     wf.plot("own")
-
-if(__name__ == "__main__"):
-    kickoff()

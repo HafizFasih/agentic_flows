@@ -48,15 +48,7 @@ class AgentFlow(Flow):
     def Stop(self):
         print("Flow is finished!")
 
-def kickoff():
+def main():
     flow = AgentFlow()
     flow.kickoff()
     flow.plot("own")
-
-
-if __name__ == "__main__":
-    kickoff()
-    
-
-
-

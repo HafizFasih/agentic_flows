@@ -56,7 +56,7 @@ class AutonomousAgentFlow(Flow):
         print(final_outline)
         return final_outline
 
-if __name__ == "__main__":
+def main():
     flow = AutonomousAgentFlow()
     final_output = flow.kickoff()
     flow.plot("repo")

@@ -13,7 +13,10 @@ dependencies = [
 ]
 
 [project.scripts]
-parallel = "parallel:main"
+repo_one = "parallel.repo_one:main"
+repo_two = "parallel.repo_two:main"
+own = "parallel.own:main"
+llm = "parallel.llm:main"
 
 [build-system]
 requires = ["hatchling"]

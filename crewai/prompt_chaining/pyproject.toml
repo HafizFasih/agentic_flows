@@ -14,6 +14,9 @@ dependencies = [
 
 [project.scripts]
 prompt-chaining = "prompt_chaining:main"
+own= "prompt_chaining.own:main"
+llm = "prompt_chaining.llm:main"
+repo = "prompt_chaining.repo:main"
 
 [build-system]
 requires = ["hatchling"]

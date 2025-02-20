@@ -33,7 +33,7 @@ class OrchestratorFlow(Flow):
         print(refined)
         return refined
 
-if __name__ == "__main__":
+def main(): 
     flow = OrchestratorFlow()
     final_draft = flow.kickoff()
     flow.plot("repo")   

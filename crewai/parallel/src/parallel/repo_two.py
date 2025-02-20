@@ -42,7 +42,7 @@ class AndAggregationFlow(Flow):
         print("Aggregated Combined Output:", combined)
         return combined
 
-if __name__ == "__main__":
+def main():
     flow = AndAggregationFlow()
     final_output = flow.kickoff()
     flow.plot("repo_two")

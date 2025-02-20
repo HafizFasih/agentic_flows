@@ -34,7 +34,7 @@ class TopicOutlineFlow(Flow):
         print(outline)
         return outline
 
-if __name__ == "__main__":
+def main():
     flow = TopicOutlineFlow()
     final_outline = flow.kickoff()
     flow.plot("repo")

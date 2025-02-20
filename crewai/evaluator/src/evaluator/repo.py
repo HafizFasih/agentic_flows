@@ -29,13 +29,9 @@ class EvaluatorOptimizerFlow(Flow):
         print(improved)
         return improved
 
-def kickoff():
+def main():
     flow = EvaluatorOptimizerFlow()
     final_summary = flow.kickoff()
     flow.plot("repo")
     print("Final Summary:")
     print(final_summary)
-
-if __name__ == "__main__":
-    kickoff()
-

@@ -15,7 +15,9 @@ dependencies = [
 
 [project.scripts]
 evaluator = "evaluator:main"
-abc = "evaluator.evaluator:kickoff"
+own = "evaluator.own:main"
+repo = "evaluator.repo:main"
+llm = "evaluator.llm:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -47,8 +47,9 @@ class RoutedFlow(Flow):
         print(outline)
         return outline
 
-if __name__ == "__main__":
+def main():
     flow = RoutedFlow()
     final_output = flow.kickoff()
+    flow.plot("repo")
     print("Final Output:")
     print(final_output)

@@ -23,10 +23,7 @@ class ParallelFlow(Flow):
     def Out(self):
         print("This is Out...")
     
-def kickoff():
+def main():
     flow = ParallelFlow()
     flow.kickoff()
     flow.plot("own")
-
-if __name__ == "__main__":
-    kickoff()

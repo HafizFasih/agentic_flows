@@ -34,10 +34,7 @@ class RouterFlow(Flow):
     def Out(self):
         print("This is out...")
 
-def kickoff():
+def main():
     flow = RouterFlow()
     flow.kickoff()
     flow.plot("own")
-
-if __name__ == "__main__":
-    kickoff()

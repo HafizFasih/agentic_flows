@@ -32,7 +32,7 @@ class ParallelFlow(Flow):
         print(variant)
         return variant
 
-if __name__ == "__main__":
+def main():
     flow = ParallelFlow()
     final = flow.kickoff()
     flow.plot("repo_one")
